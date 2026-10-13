@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonatan Gregorim | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Topo fixo com menu de navegacao -->
+    <header id="topo">
+        <div class="container header-flex">
+            <span class="logo">Jonatan<strong>.dev</strong></span>
+            
+            <!-- Botao para abrir menu no celular -->
+            <button id="btn-mobile" aria-label="Abrir Menu">&#9776;</button>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                    <li><a href="#formacao" class="nav-link">Formação</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <button id="btn-tema" title="Mudar tema">Modo Escuro</button>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- SECAO 1: SOBRE MIM -->
+        <section id="sobre" class="secao">
+            <div class="apresentacao">
+                <span class="subtitulo">Olá, meu nome é</span>
+                <h1>Jonatan Gregorim</h1>
+                <p class="resumo">Estudante de <strong>Engenharia de Software</strong> e <strong>Game Design</strong>. Atualmente trabalho como gerente comercial, o que me deu muita bagagem em liderança, organização de processos e resolução de problemas sob pressão.</p>
+                <p>Estou focado na transição e consolidação na área de tecnologia, unindo arquitetura de software bem estruturada com a criação de mecânicas e experiências interativas para jogos digitais.</p>
+                
+                <div class="box-hobbies">
+                    <h3>Interesses & Hobbies</h3>
+                    <p>Fora do VS Code e da Unity, dedico meu tempo livre ao adestramento e treino de obediência do meu Pastor Alemão de linha de trabalho, cuido de um aquário de 200L (com peixes e uma tartaruga) e pratico desenho digital e Pixel Art. Também curto muito cinema com temáticas psicológicas e jogar Pokémon GO com a família.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECAO 2: FORMACAO -->
+        <section id="formacao" class="secao">
+            <h2 class="titulo-secao">Formação & Habilidades</h2>
+            
+            <div class="grid-duplo">
+                <div class="bloco-info">
+                    <h3>Educação Acadêmica</h3>
+                    <div class="item-lista">
+                        <h4>Bacharelado em Engenharia de Software</h4>
+                        <span class="detalhe">Em andamento | UNINTER</span>
+                        <p>Foco em arquitetura de sistemas, engenharia de requisitos, UML, banco de dados relacional (modelagem e normalização) e metodologias ágeis (Scrum e Kanban).</p>
+                    </div>
+                    <div class="item-lista">
+                        <h4>Graduação em Game Design</h4>
+                        <span class="detalhe">Em andamento</span>
+                        <p>Estudo de level design, balanceamento de mecânicas, narrativa interativa, prototipagem 2D/3D e produção de assets visuais.</p>
+                    </div>
+                </div>
+
+                <div class="bloco-info">
+                    <h3>Competências Técnicas & Idiomas</h3>
+                    <div class="item-lista">
+                        <h4>Linguagens e Motores</h4>
+                        <div class="tags">
+                            <span>C#</span>
+                            <span>Linguagem C</span>
+                            <span>Unity 2D/3D</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="item-lista">
+                        <h4>Arte e Ferramentas</h4>
+                        <div class="tags">
+                            <span>Aseprite</span>
+                            <span>Krita</span>
+                            <span>Blender 3D</span>
+                            <span>Git / GitHub</span>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                    <div class="item-lista">
+                        <h4>Idiomas</h4>
+                        <p><strong>Português:</strong> Nativo</p>
+                        <p><strong>Inglês:</strong> Intermediário (prática contínua de leitura técnica, gramática e retenção de vocabulário com repetição espaçada no Anki).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECAO 3: PORTFOLIO -->
+        <section id="portfolio" class="secao">
+            <h2 class="titulo-secao">Meus Projetos</h2>
+            <p class="desc-secao">Alguns dos trabalhos práticos, protótipos e estudos que venho desenvolvendo na faculdade e por conta própria:</p>
+
+            <div class="grid-projetos">
+                <article class="card-projeto">
+                    <span class="categoria-projeto">Game Dev • Unity & C#</span>
+                    <h3>Protótipo de Terror Psicológico</h3>
+                    <p>Jogo focado em exploração em um hotel de múltiplos andares onde o protagonista busca recuperar memórias perdidas. Implementação de máquina de estados para o sistema de elevador em C#, física com Rigidbody e controle de áudio ambiente.</p>
+                    <div class="links-projeto">
+                        <a href="https://github.com/" target="_blank" rel="noopener">Ver Repositório &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card-projeto">
+                    <span class="categoria-projeto">Game Dev • WebGL</span>
+                    <h3>Sistemas 2D e Publicação Web</h3>
+                    <p>Desenvolvimento de scripts em C# para movimentação precisa de personagens, detecção de colisões, transições de animação (Animator) e interface de usuário (UI), com compilação e exportação em WebGL para rodar direto no navegador.</p>
+                    <div class="links-projeto">
+                        <a href="https://github.com/" target="_blank" rel="noopener">Ver Código &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card-projeto">
+                    <span class="categoria-projeto">Arte Digital • 2D & 3D</span>
+                    <h3>Pixel Art Gótica & Modelagem</h3>
+                    <p>Criação de spritesheets e cenários 2D com estética sombria utilizando Aseprite e Krita, além de modelagem 3D low-poly, abertura de malha (UV Mapping) e pintura de texturas no Blender.</p>
+                    <div class="links-projeto">
+                        <a href="https://github.com/" target="_blank" rel="noopener">Ver Galeria &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECAO 4: CONTATO -->
+        <section id="contato" class="secao">
+            <h2 class="titulo-secao">Entre em Contato</h2>
+            <p class="desc-secao">Tem alguma dúvida, sugestão ou proposta? Preencha o formulário abaixo para me enviar uma mensagem.</p>
+
+            <form id="form-contato" novalidate>
+                <div class="campo">
+                    <label for="nome">Seu Nome *</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: João Silva">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Seu E-mail *</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@dominio.com">
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+
+                <!-- Aviso de validacao do JS aparece aqui sem precisar de alert() -->
+                <div id="aviso-form" class="aviso-escondido"></div>
+
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Desenvolvido por <strong>Jonatan Gregorim</strong> &bull; Atividade Prática de Fundamentos da Programação Web</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
